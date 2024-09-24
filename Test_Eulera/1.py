@@ -5,7 +5,7 @@
 Найдите сумму всех чисел меньше 1000, кратных 3 или 5.
 """
 
-def decision(num_1, num_2, num_max) -> int:
+def search_short_number(num_1: int, num_2: int, num_max: int) -> int:
     """
     Функция получает на вход два числа, на которые будет проверяться третье входящее третье число
     и выводиться сумма этих чисел
@@ -28,4 +28,4 @@ def decision(num_1, num_2, num_max) -> int:
     return num_sum
 
 if __name__ == "__main__":
-    print(decision(3, 5, 1000))
+    print(search_short_number(3, 5, 1000))
